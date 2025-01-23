@@ -1,16 +1,19 @@
-# 24-25-EDA1-ExamenFinal - Propuesta de solución
+# 24-25-EDA1-ExamenFinal
+
+## Propuesta de solución
 
 <div align=center>
 
-|![](/images/IMG_20250123_115901.jpg)|![](/images/modelosUML/001.svg)
-|-|-|
+<img src="images/IMG_20250123_115901.jpg" width=800>
+
+</div>
+
+### Notas
 
 - PantallaEntrelazada maneja los dos frames
 - El doble bufer se implementa con una lista circular
 - El frame es un array de objetos Pixel
 - `establecerPixel()` permite la actualización individual de un pixel
-
-</div>
 
 ## Código implementado
 
