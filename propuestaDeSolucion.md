@@ -2,9 +2,13 @@
 
 <div align=center>
 
-|||
-|-|-|
 |![](/images/IMG_20250123_115901.jpg)|![](/images/modelosUML/001.svg)
+|-|-|
+
+- PantallaEntrelazada maneja los dos frames
+- El doble bufer se implementa con una lista circular
+- El frame es un array de objetos Pixel
+- `establecerPixel()` permite la actualización individual de un pixel
 
 </div>
 
@@ -46,9 +50,9 @@ pantalla.renderizar();
 <td valign=top>
 
 ```
-00000200
-00000020
-00000002
+0 0 0 0 0 2 0 0
+0 0 0 0 0 0 2 0
+0 0 0 0 0 0 0 2
 ```
 </td>
 </tr>
